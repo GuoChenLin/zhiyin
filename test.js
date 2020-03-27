@@ -4,8 +4,8 @@ window.onload = function () {
 
 $(function () {
     $('#app').html('hello')
-    // 这是master修改的内容
-    $('#app').click(function() {
-    	console.log($(this).html()
+    // 下面是其他人修改的内容
+    $('#app').on('click',function() {
+      consolg.log($(this).html())
     })
 })
