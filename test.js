@@ -9,3 +9,8 @@ $(function () {
       console.log($(this).html())
     })
 })
+
+// linguocheng分支修改的东西
+beforeRouterEnter() {
+	console.log('进来了')
+}
