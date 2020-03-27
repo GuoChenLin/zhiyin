@@ -9,3 +9,5 @@ $(function () {
       console.log($(this).html())
     })
 })
+// 最新版的代码
+console.log('best new')
